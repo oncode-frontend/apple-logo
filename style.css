@@ -1,0 +1,73 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.apple-logo {
+    display: flex;
+    position: relative;
+}
+.leaf {
+    background-color: black;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    bottom: 360px;
+    left: 270px;
+    border-radius: 100%;
+    z-index: 10;
+    transform: rotate(-50deg);
+}
+.left-lip{
+    background-color: black;
+    width: 250px;
+    height: 350px;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 60%;
+    
+    position: relative;
+    left: 90px;
+}
+.right-lip {
+    background-color: black;
+    width: 250px;
+    height: 350px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 60%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 60%;
+
+}
+.gassed {
+    background-color: white;
+    width: 180px;
+    height: 200px;
+    border-radius: 100%;
+    position: relative;
+    left: 180px;
+    top: 0px;
+}
+.top-hole {
+    background-color: black;
+    width: 100px;
+    height: 80px;
+    position: relative;
+    left: 150px;
+
+}
+.top-circle {
+    background-color: white;
+    position: relative;
+    width: 150px;
+    height: 100px;
+    bottom: 69.5px;
+    right: 25px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 80%;
+    display: flex;
+}
